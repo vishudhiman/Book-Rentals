@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  height: 80px;
+  width: 150px;
+}
+.cart {
+  list-style-type: none;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+/* Home page */
+.container {
+  max-width: 1500px;
+  margin: 20px 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.col2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img {
+  max-width: 80%;
+  padding: 50px 0;
+}
+
+.col2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px;
+}
+.col2 p {
+  font-size: 25px;
+  margin: 20px 60px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 50px;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background: #563434;
+  transition: background 0.5s;
+}
+/* Register and Login page */
+.bg {
+  height: 100vh;
+  width: 100%;
+  background: url("./images/book.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.login-box {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  top: 50%;
+  left: 25%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  opacity: 1;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.login-box p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.login-box input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1c8adb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #39dc79;
+  color: #000;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.login-box a:hover {
+  color: #39dc79;
+}
